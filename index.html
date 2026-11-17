@@ -1,28 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MoveWell Fitness & Wellness — yoga, dance, strength training and nutrition.">
-  <title>Mallika Ram | Fitness & Wellness</title>
+
+  <!-- Primary SEO -->
+  <title>Mallika Ram Wellness Center | Yoga, Fitness & Nutrition in Patancheru</title>
+  <meta name="description"
+    content="Mallika Ram Wellness Center in Patancheru, Hyderabad offers yoga, dance fitness, strength training and nutrition guidance. Serving Patancheruvu, RC Puram and Indresham.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Mallika Ram Wellness Center">
+  <meta name="theme-color" content="#2e7d32">
+  <link rel="canonical" href="https://mallika-ram.vercel.app/">
+
+  <!-- Local / geo hints -->
+  <meta name="geo.region" content="IN-TG">
+  <meta name="geo.placename" content="Patancheru, Hyderabad">
+  <meta name="geo.position" content="17.5330;78.2640">
+  <meta name="ICBM" content="17.5330, 78.2640">
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mallika Ram Wellness Center">
+  <meta property="og:title" content="Mallika Ram Wellness Center | Yoga & Fitness in Patancheru, Hyderabad">
+  <meta property="og:description"
+    content="Yoga, dance fitness, strength training and nutrition guidance in Patancheru, RC Puram and Indresham.">
+  <meta property="og:url" content="https://mallika-ram.vercel.app/">
+  <meta property="og:image" content="https://mallika-ram.vercel.app/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mallika Ram Wellness Center | Patancheru, Hyderabad">
+  <meta name="twitter:description" content="Yoga, dance fitness, strength training and nutrition guidance.">
+  <meta name="twitter:image" content="https://mallika-ram.vercel.app/images/og-image.jpg">
+
+  <!-- Favicons -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <!-- Styles & fonts -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Local Business structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthClub",
+    "name": "Mallika Ram Wellness Center",
+    "description": "Yoga, dance fitness, strength training and nutrition guidance in Patancheru, Hyderabad.",
+    "url": "https://mallika-ram.vercel.app/",
+    "image": "https://mallika-ram.vercel.app/images/og-image.jpg",
+    "logo": "https://mallika-ram.vercel.app/images/favicon.png",
+    "telephone": "+91-XXXXXXXXXX",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "FULL STREET ADDRESS",
+      "addressLocality": "Patancheru",
+      "addressRegion": "Telangana",
+      "postalCode": "502319",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 17.5330,
+      "longitude": 78.2640
+    },
+    "areaServed": ["Patancheru", "Patancheruvu", "RC Puram", "Indresham", "Hyderabad"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "05:30",
+      "closes": "21:00"
+    }],
+    "sameAs": [
+      "https://www.instagram.com/YOUR_HANDLE",
+      "https://www.facebook.com/YOUR_PAGE"
+    ]
+  }
+  </script>
 </head>
+
 <body>
 
   <!-- Header / Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#home">
-        <span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span>Mallika <span>Ram</span>
+      <a class="navbar-brand brand-stack" href="#home">
+        <span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span>
+        <div class="brand-text">
+          <div class="brand-name">Mallika <span>Ram</span></div>
+          <small class="brand-tagline">Fitness &amp; Wellness</small>
+        </div>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <style>
+        /* Brand with tagline */
+        .brand-stack {
+          display: inline-flex;
+          align-items: center;
+        }
+
+        .brand-stack .brand-mark {
+          flex: 0 0 34px;
+          vertical-align: baseline;
+        }
+
+        .brand-text {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.05;
+        }
+
+        .brand-tagline {
+          display: block;
+          margin-top: 3px;
+          font-family: "DM Sans", sans-serif;
+          font-size: .62rem;
+          font-weight: 600;
+          letter-spacing: .04em;
+          line-height: 1.2;
+          color: #000;
+        }
+      </style>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
@@ -31,7 +143,8 @@
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a class="btn-green py-2 px-4" href="#contact">Join Us <i class="bi bi-arrow-up-right"></i></a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a class="btn-green py-2 px-4" href="#contact">Join Us <i
+                class="bi bi-arrow-up-right"></i></a></li>
         </ul>
       </div>
     </div>
@@ -61,12 +174,11 @@
         </div>
         <div class="col-lg-5">
           <div class="hero-photo-wrap">
-            <img class="hero-photo"
-                 src="images/banner.jpg"
-                 alt="Woman practising yoga in a bright fitness studio">
+            <img class="hero-photo" src="images/banner.jpg" alt="Woman practising yoga in a bright fitness studio">
             <div class="hero-float">
               <span class="icon"><i class="bi bi-heart-pulse-fill"></i></span>
-              <span class="d-inline-block align-middle"><strong>Move with purpose</strong><small>Make wellness a lifestyle</small></span>
+              <span class="d-inline-block align-middle"><strong>Move with purpose</strong><small>Make wellness a
+                  lifestyle</small></span>
             </div>
           </div>
         </div>
@@ -78,267 +190,260 @@
   <div class="benefits">
     <div class="container">
       <div class="row">
-        <div class="col-md-4"><div class="benefit-item"><i class="bi bi-person-check"></i> Supportive expert guidance</div></div>
-        <div class="col-md-4"><div class="benefit-item"><i class="bi bi-calendar2-heart"></i> Flexible fitness programmes</div></div>
-        <div class="col-md-4"><div class="benefit-item"><i class="bi bi-emoji-smile"></i> A welcoming community</div></div>
+        <div class="col-md-4">
+          <div class="benefit-item"><i class="bi bi-person-check"></i> Supportive expert guidance</div>
+        </div>
+        <div class="col-md-4">
+          <div class="benefit-item"><i class="bi bi-calendar2-heart"></i> Flexible fitness programmes</div>
+        </div>
+        <div class="col-md-4">
+          <div class="benefit-item"><i class="bi bi-emoji-smile"></i> A welcoming community</div>
+        </div>
       </div>
     </div>
   </div>
 
- 
-<!-- Services: Wellness Coach -->
-<section class="section-pad services-section" id="services">
-  <div class="container">
 
-    <!-- Section Heading -->
-    <div class="row align-items-end mb-5">
-      <div class="col-lg-7">
-        <div class="eyebrow mb-3">What We Offer</div>
-        <h2 class="section-title mb-0">
-          Your journey to
-          <span style="color:var(--green)">better wellbeing.</span>
-        </h2>
+  <!-- Services: Wellness Coach -->
+  <section class="section-pad services-section" id="services">
+    <div class="container">
+
+      <!-- Section Heading -->
+      <div class="row align-items-end mb-5">
+        <div class="col-lg-7">
+          <div class="eyebrow mb-3">What We Offer</div>
+          <h2 class="section-title mb-0">
+            Your journey to
+            <span style="color:var(--green)">better wellbeing.</span>
+          </h2>
+        </div>
+
+        <div class="col-lg-5 mt-3 mt-lg-0">
+          <p class="section-intro mb-0">
+            Personalised wellness guidance to help you feel healthier,
+            stronger and more confident at every stage of life.
+          </p>
+        </div>
       </div>
 
-      <div class="col-lg-5 mt-3 mt-lg-0">
-        <p class="section-intro mb-0">
-          Personalised wellness guidance to help you feel healthier,
-          stronger and more confident at every stage of life.
-        </p>
+      <!-- Service Cards -->
+      <div class="row g-4">
+
+        <!-- 01 Weight Loss -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600"
+                alt="Weight loss fitness">
+              <span class="service-number">01 / WEIGHT MANAGEMENT</span>
+            </div>
+            <div class="service-content">
+              <h3>Weight Loss</h3>
+              <p>Build sustainable habits with personalised nutrition and lifestyle guidance.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 02 Weight Gain -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600"
+                alt="Strength and weight gain training">
+              <span class="service-number">02 / WEIGHT MANAGEMENT</span>
+            </div>
+            <div class="service-content">
+              <h3>Weight Gain</h3>
+              <p>Support healthy weight gain through balanced nutrition and daily routines.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 03 Body Maintenance -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600"
+                alt="Body maintenance fitness">
+              <span class="service-number">03 / FITNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Body Maintenance</h3>
+              <p>Maintain your progress with balanced meals, movement and healthy habits.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 04 Healthy Lifestyle -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600"
+                alt="Healthy lifestyle and food">
+              <span class="service-number">04 / WELLNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Healthy Lifestyle</h3>
+              <p>Create healthier everyday routines for lasting physical and mental wellbeing.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 05 Anti Aging -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600"
+                alt="Relaxation and healthy ageing">
+              <span class="service-number">05 / AGEING WELL</span>
+            </div>
+            <div class="service-content">
+              <h3>Anti Aging</h3>
+              <p>Explore nutrition and lifestyle habits that support healthy ageing and vitality.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 06 Active Lifestyles -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=600"
+                alt="Active lifestyle and fitness">
+              <span class="service-number">06 / ACTIVE LIVING</span>
+            </div>
+            <div class="service-content">
+              <h3>Active Lifestyles</h3>
+              <p>Stay energetic with simple movement routines and practical wellness habits.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 07 Exercise -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+                alt="Exercise and fitness training">
+              <span class="service-number">07 / MOVEMENT</span>
+            </div>
+            <div class="service-content">
+              <h3>Exercise</h3>
+              <p>Discover enjoyable exercise routines suited to your fitness level and goals.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 08 Zumba -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600"
+                alt="Dance and Zumba fitness">
+              <span class="service-number">08 / DANCE FITNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Zumba</h3>
+              <p>Enjoy energetic dance workouts that make staying active fun and motivating.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 09 Children's Nutrition -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=600"
+                alt="Healthy food for children">
+              <span class="service-number">09 / FAMILY WELLNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Children's Nutrition</h3>
+              <p>Encourage balanced eating habits and healthy food choices for growing children.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 10 Women's Health -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600"
+                alt="Women's wellness and health">
+              <span class="service-number">10 / WOMEN'S WELLNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Women's Health</h3>
+              <p>Support women's wellbeing with nutrition and lifestyle guidance through different life stages.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 11 Joint Health -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600"
+                alt="Joint mobility and exercise">
+              <span class="service-number">11 / MOBILITY</span>
+            </div>
+            <div class="service-content">
+              <h3>Joint Health</h3>
+              <p>Learn about supportive movement, mobility and nutrition habits for joint wellbeing.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 12 Sports Nutrition -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+                alt="Sports nutrition and healthy food">
+              <span class="service-number">12 / PERFORMANCE</span>
+            </div>
+            <div class="service-content">
+              <h3>Sports Nutrition</h3>
+              <p>Understand balanced nutrition to support training, recovery and active performance.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- 13 Heart Health -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="service-card">
+            <div class="service-image-wrap">
+              <img class="service-image" src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600"
+                alt="Heart healthy food and nutrition">
+              <span class="service-number">13 / HEART WELLNESS</span>
+            </div>
+            <div class="service-content">
+              <h3>Heart Health</h3>
+              <p>Explore heart-conscious food and lifestyle habits that support cardiovascular wellbeing.</p>
+              <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+
       </div>
     </div>
-
-    <!-- Service Cards -->
-    <div class="row g-4">
-
-      <!-- 01 Weight Loss -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600"
-              alt="Weight loss fitness">
-            <span class="service-number">01 / WEIGHT MANAGEMENT</span>
-          </div>
-          <div class="service-content">
-            <h3>Weight Loss</h3>
-            <p>Build sustainable habits with personalised nutrition and lifestyle guidance.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 02 Weight Gain -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600"
-              alt="Strength and weight gain training">
-            <span class="service-number">02 / WEIGHT MANAGEMENT</span>
-          </div>
-          <div class="service-content">
-            <h3>Weight Gain</h3>
-            <p>Support healthy weight gain through balanced nutrition and daily routines.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 03 Body Maintenance -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600"
-              alt="Body maintenance fitness">
-            <span class="service-number">03 / FITNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Body Maintenance</h3>
-            <p>Maintain your progress with balanced meals, movement and healthy habits.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 04 Healthy Lifestyle -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600"
-              alt="Healthy lifestyle and food">
-            <span class="service-number">04 / WELLNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Healthy Lifestyle</h3>
-            <p>Create healthier everyday routines for lasting physical and mental wellbeing.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 05 Anti Aging -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600"
-              alt="Relaxation and healthy ageing">
-            <span class="service-number">05 / AGEING WELL</span>
-          </div>
-          <div class="service-content">
-            <h3>Anti Aging</h3>
-            <p>Explore nutrition and lifestyle habits that support healthy ageing and vitality.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 06 Active Lifestyles -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=600"
-              alt="Active lifestyle and fitness">
-            <span class="service-number">06 / ACTIVE LIVING</span>
-          </div>
-          <div class="service-content">
-            <h3>Active Lifestyles</h3>
-            <p>Stay energetic with simple movement routines and practical wellness habits.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 07 Exercise -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
-              alt="Exercise and fitness training">
-            <span class="service-number">07 / MOVEMENT</span>
-          </div>
-          <div class="service-content">
-            <h3>Exercise</h3>
-            <p>Discover enjoyable exercise routines suited to your fitness level and goals.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 08 Zumba -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600"
-              alt="Dance and Zumba fitness">
-            <span class="service-number">08 / DANCE FITNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Zumba</h3>
-            <p>Enjoy energetic dance workouts that make staying active fun and motivating.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 09 Children's Nutrition -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=600"
-              alt="Healthy food for children">
-            <span class="service-number">09 / FAMILY WELLNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Children's Nutrition</h3>
-            <p>Encourage balanced eating habits and healthy food choices for growing children.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 10 Women's Health -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600"
-              alt="Women's wellness and health">
-            <span class="service-number">10 / WOMEN'S WELLNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Women's Health</h3>
-            <p>Support women's wellbeing with nutrition and lifestyle guidance through different life stages.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 11 Joint Health -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600"
-              alt="Joint mobility and exercise">
-            <span class="service-number">11 / MOBILITY</span>
-          </div>
-          <div class="service-content">
-            <h3>Joint Health</h3>
-            <p>Learn about supportive movement, mobility and nutrition habits for joint wellbeing.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 12 Sports Nutrition -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
-              alt="Sports nutrition and healthy food">
-            <span class="service-number">12 / PERFORMANCE</span>
-          </div>
-          <div class="service-content">
-            <h3>Sports Nutrition</h3>
-            <p>Understand balanced nutrition to support training, recovery and active performance.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-      <!-- 13 Heart Health -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <article class="service-card">
-          <div class="service-image-wrap">
-            <img class="service-image"
-              src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600"
-              alt="Heart healthy food and nutrition">
-            <span class="service-number">13 / HEART WELLNESS</span>
-          </div>
-          <div class="service-content">
-            <h3>Heart Health</h3>
-            <p>Explore heart-conscious food and lifestyle habits that support cardiovascular wellbeing.</p>
-            <a class="service-link" href="#contact">Explore service <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </article>
-      </div>
-
-    </div>
-  </div>
-</section>
+  </section>
 
 
   <!-- CTA band -->
-  <section class="pb-5">
+  <section class="pb-0">
     <div class="container">
       <div class="promise-card d-md-flex align-items-center justify-content-between gap-4">
         <div>
@@ -346,7 +451,8 @@
           <h2>Small steps today. A stronger you tomorrow.</h2>
           <p>Let's find a routine that fits your goals, your lifestyle and your pace.</p>
         </div>
-        <a class="btn mt-4 mt-md-0 flex-shrink-0" href="#contact">Start Your Journey <i class="bi bi-arrow-up-right ms-1"></i></a>
+        <a class="btn mt-4 mt-md-0 flex-shrink-0" href="#contact">Start Your Journey <i
+            class="bi bi-arrow-up-right ms-1"></i></a>
       </div>
     </div>
   </section>
@@ -357,311 +463,142 @@
       <div class="text-center mx-auto mb-5" style="max-width:650px">
         <div class="eyebrow mb-3">Community Stories</div>
         <h2 class="section-title">Real people. <span style="color:var(--green)">Positive change.</span></h2>
-        <p class="section-intro mx-auto mt-3">A little encouragement goes a long way. Here's what our members say about their experience.</p>
+        <p class="section-intro mx-auto mt-3">A little encouragement goes a long way. Here's what our members say about
+          their experience at Mallika Ram Wellness Center.</p>
       </div>
       <div class="row g-4">
+
         <div class="col-md-6 col-lg-4">
           <article class="testimonial-card">
-            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span class="stars">★★★★★</span></div>
-            <p class="review-text">“The yoga sessions have become my favourite part of the week. The atmosphere is welcoming, and I feel more balanced and energised.”</p>
+            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span
+                class="stars">★★★★★</span></div>
+            <p class="review-text">“I joined Mallika Ram Wellness Center three months back and I am very happy with my
+              decision. The trainers are very helpful and they guide us properly in every exercise. I feel more fit and
+              active now.”</p>
             <div class="reviewer">
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Member Priya">
-              <div><strong>Priya R.</strong><small>Yoga Member</small></div>
+              <img src="images/cl2.jpg" alt="Member Vasanth Kumar">
+              <div><strong>Vasanth Kumar</strong><small>Strength Training Member</small></div>
             </div>
           </article>
         </div>
+
         <div class="col-md-6 col-lg-4">
           <article class="testimonial-card">
-            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span class="stars">★★★★★</span></div>
-            <p class="review-text">“The trainers make every workout motivating and approachable. I love the variety of classes and the positive community.”</p>
+            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span
+                class="stars">★★★★★</span></div>
+            <p class="review-text">“The place is very clean and peaceful. Yoga classes here have reduced my back pain
+              and stress. The staff is friendly and always ready to help. I recommend this center to all my friends and
+              family.”</p>
             <div class="reviewer">
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Member Arjun">
-              <div><strong>Arjun K.</strong><small>Strength Training Member</small></div>
+              <img src="images/cl3.jpg" alt="Member Laxmipathi">
+              <div><strong>Laxmipathi</strong><small>Yoga Member</small></div>
             </div>
           </article>
         </div>
+
         <div class="col-md-6 col-lg-4">
           <article class="testimonial-card">
-            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span class="stars">★★★★★</span></div>
-            <p class="review-text">“The dance fitness classes are so much fun. I look forward to every session and appreciate how supportive everyone is.”</p>
+            <div class="d-flex justify-content-between"><span class="quote"><i class="bi bi-quote"></i></span><span
+                class="stars">★★★★★</span></div>
+            <p class="review-text">“Very good environment and supportive trainers. The timings are convenient for me and
+              the classes are well planned. I am regular to the center now and I enjoy every session.”</p>
             <div class="reviewer">
-              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Member Meera">
-              <div><strong>Meera S.</strong><small>Dance Fitness Member</small></div>
+              <img src="images/cl1.jpg" alt="Member Venkatesh">
+              <div><strong>Venkatesh</strong><small>Fitness Member</small></div>
             </div>
           </article>
         </div>
+
       </div>
-      <!-- <p class="text-center small mt-4 mb-0" style="color:#87948b">Sample testimonials for layout preview — replace with genuine customer feedback before publishing.</p> -->
     </div>
   </section>
 
   <!-- new -->
 
 
-<!-- Before & After Transformation Section -->
-<section class="section-pad transformation-section" id="transformations">
+  <!-- Before & After Transformation Section -->
+  <section class="section-pad transformation-section" id="transformations">
     <div class="container-fluid px-3 px-md-4">
 
-        <!-- Section Heading -->
-        <div class="text-center mb-5">
-            <div class="eyebrow mb-3">Real Wellness Journeys</div>
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <div class="eyebrow mb-3">Real Wellness Journeys</div>
 
-            <h2 class="section-title">
-                Small Changes.
-                <span style="color:var(--green)">
-                    Amazing Transformations.
-                </span>
-            </h2>
+        <h2 class="section-title">
+          Small Changes.
+          <span style="color:var(--green)">
+            Amazing Transformations.
+          </span>
+        </h2>
 
-            <p class="section-intro mx-auto mt-3">
-                Every wellness journey is unique. Explore these sample
-                transformation stories and get inspired to start your own.
-            </p>
+        <p class="section-intro mx-auto mt-3">
+          Every wellness journey is unique. Explore these sample
+          transformation stories and get inspired to start your own.
+        </p>
+      </div>
+
+      <!-- Transformation Cards -->
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card">
+            <img src="images/bfaf1.jpg" alt="Wellness transformation 1" class="transformation-img">
+          </div>
         </div>
 
-        <!-- Transformation Cards -->
-        <div class="row g-4">
-
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="transformation-card">
-                    <img src="images/bfaf1.jpg"
-                         alt="Wellness transformation 1"
-                         class="transformation-img">
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="transformation-card">
-                    <img src="images/bfaf2.jpg"
-                         alt="Wellness transformation 2"
-                         class="transformation-img">
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="transformation-card">
-                    <img src="images/bfaf3.jpg"
-                         alt="Wellness transformation 3"
-                         class="transformation-img">
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="transformation-card">
-                    <img src="images/bfaf4.jpg"
-                         alt="Wellness transformation 4"
-                         class="transformation-img">
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="transformation-card">
-                    <img src="images/bfaf5.jpg"
-                         alt="Wellness transformation 5"
-                         class="transformation-img">
-                </div>
-            </div>
-
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card">
+            <img src="images/bfaf2.jpg" alt="Wellness transformation 2" class="transformation-img">
+          </div>
         </div>
-    </div>
-</section>
-<style>
 
-/* Transformation Section */
-.transformation-section {
-    width: 100%;
-    overflow: hidden;
-}
-
-/* Bootstrap card column */
-.transformation-section .row {
-    width: 100%;
-}
-
-/* Transformation Card */
-.transformation-card {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
-/* Transformation Image */
-.transformation-img {
-    display: block;
-    width: 100% !important;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 23 / 16;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* Tablet */
-@media (max-width: 991px) {
-    .transformation-img {
-        aspect-ratio: 23 / 16;
-    }
-}
-
-/* Mobile */
-@media (max-width: 575px) {
-    .transformation-section .container-fluid {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .transformation-card {
-        border-radius: 10px;
-    }
-
-    .transformation-img {
-        width: 100% !important;
-        height: auto;
-        aspect-ratio: 23 / 16;
-        object-fit: cover;
-    }
-}
-
-</style>
-
-        <!-- Bottom CTA -->
-        <div class="transformation-cta text-center mt-5">
-            <h3>Ready to begin your wellness journey?</h3>
-            <p>Let's create a healthier and happier version of you.</p>
-            <a href="#contact" class="btn btn-success">
-                Start Your Journey
-                <i class="bi bi-arrow-right ms-2"></i>
-            </a>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card">
+            <img src="images/bfaf3.jpg" alt="Wellness transformation 3" class="transformation-img">
+          </div>
         </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card">
+            <img src="images/bfaf4.jpg" alt="Wellness transformation 4" class="transformation-img">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card">
+            <img src="images/bfaf5.jpg" alt="Wellness transformation 5" class="transformation-img">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="transformation-card video-card">
+            <video class="transformation-img" poster="images/poster.jpg" preload="metadata" playsinline
+              webkit-playsinline aria-label="Wellness transformation video">
+              <source src="images/video.mp4" type="video/mp4">
+              <source src="images/video.mp4" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+
+            <button type="button" class="video-toggle" aria-label="Play video">
+              <i class="bi bi-play-fill"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="transformation-cta text-center mt-5">
+        <h3>Ready to begin your wellness journey?</h3>
+        <p>Let's create a healthier and happier version of you.</p>
+        <a href="#contact" class="btn btn-success">
+          Start Your Journey
+          <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
 
     </div>
-</section>
-<style>
-
-/* Before & After Transformation Section */
-
-.transformation-section {
-    background: #f8fbf8;
-}
-
-.transformation-section .section-intro {
-    max-width: 650px;
-}
-
-.transformation-card {
-    height: 100%;
-    background: #ffffff;
-    border-radius: 18px;
-    overflow: hidden;
-    border: 1px solid #e9eee9;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.transformation-card:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-}
-
-.transformation-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3px;
-    overflow: hidden;
-}
-
-.transformation-image {
-    position: relative;
-    height: 250px;
-    overflow: hidden;
-}
-
-.transformation-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.4s ease;
-}
-
-.transformation-card:hover .transformation-image img {
-    transform: scale(1.05);
-}
-
-.image-label {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
-    background: #ffffff;
-    color: #263b2d;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding: 7px 13px;
-    border-radius: 30px;
-}
-
-.transformation-content {
-    padding: 24px;
-}
-
-.transformation-content h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.transformation-content p {
-    color: #6b756d;
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 16px;
-}
-
-.transformation-tag {
-    display: inline-block;
-    background: #eaf5eb;
-    color: var(--green);
-    padding: 7px 13px;
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.transformation-cta h3 {
-    font-weight: 700;
-    font-size: 25px;
-}
-
-.transformation-cta p {
-    color: #6b756d;
-    margin-bottom: 20px;
-}
-
-.transformation-cta .btn {
-    background: var(--green);
-    border-color: var(--green);
-    border-radius: 30px;
-    padding: 12px 25px;
-    font-weight: 600;
-}
-
-@media (max-width: 576px) {
-    .transformation-image {
-        height: 190px;
-    }
-
-    .transformation-content {
-        padding: 18px;
-    }
-}
-
-</style>
-<!-- end -->
+  </section>
+  <!-- end -->
   <!-- Contact + Map -->
   <section class="section-pad contact-section" id="contact">
     <div class="container">
@@ -670,7 +607,10 @@
           <div class="eyebrow mb-3">Let's Connect</div>
           <h2 class="section-title mb-0">Ready to make a <span style="color:var(--green)">healthy change?</span></h2>
         </div>
-        <div class="col-lg-5 mt-3 mt-lg-0"><p class="section-intro mb-0">Ask us about classes, memberships or personal training. Send a message or visit our center.</p></div>
+        <div class="col-lg-5 mt-3 mt-lg-0">
+          <p class="section-intro mb-0">Ask us about classes, memberships or personal training. Send a message or visit
+            our center.</p>
+        </div>
       </div>
 
       <div class="row g-4">
@@ -713,7 +653,8 @@
                 </div>
                 <div class="col-md-6">
                   <label class="form-label" for="email">Email Address</label>
-                  <input class="form-control" type="email" id="email" name="email" placeholder="you@example.com" required>
+                  <input class="form-control" type="email" id="email" name="email" placeholder="you@example.com"
+                    required>
                 </div>
                 <div class="col-md-6">
                   <label class="form-label" for="phone">Phone Number</label>
@@ -734,7 +675,8 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label" for="message">Your Message</label>
-                  <textarea class="form-control" id="message" name="message" placeholder="Tell us how we can help..." required></textarea>
+                  <textarea class="form-control" id="message" name="message" placeholder="Tell us how we can help..."
+                    required></textarea>
                 </div>
                 <div class="col-12 d-flex flex-wrap align-items-center gap-3">
                   <button type="submit" class="btn-green">Submit Enquiry <i class="bi bi-arrow-right"></i></button>
@@ -751,7 +693,13 @@
   <!-- Footer -->
   <footer>
     <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
-      <a class="navbar-brand text-white" href="#home"><span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span>Mallika <span style="color:#b6d2bc">Ram</span></a>
+      <a class="navbar-brand brand-stack text-white" href="#home">
+        <span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span>
+        <div class="brand-text">
+          <div class="brand-name">Mallika <span style="color:#b6d2bc">Ram</span></div>
+          <small class="brand-tagline text-white">Fitness &amp; Wellness</small>
+        </div>
+      </a>
       <div>© <span id="year"></span> Mallika Ram Fitness & Wellness. All rights reserved.</div>
       <div class="footer-social">
         <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -763,6 +711,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
-  
+
 </body>
+
 </html>
